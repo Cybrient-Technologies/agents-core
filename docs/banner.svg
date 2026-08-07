@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="agents.diy agents-core">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#111A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#6D46E0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6D46E0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="360" rx="24" fill="url(#glow)"/>
+
+  <!-- faint prompt glyph -->
+  <text x="70" y="150" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="120" fill="#22D3EE" opacity="0.10">&gt;_</text>
+
+  <!-- wordmark -->
+  <text x="640" y="168" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-weight="800" font-size="96" letter-spacing="-2">
+    <tspan fill="#E6EDF3">agents</tspan><tspan fill="url(#accent)">.diy</tspan>
+  </text>
+
+  <!-- module name -->
+  <text x="640" y="212" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="24" letter-spacing="6" fill="#7C89A8">A G E N T S - C O R E</text>
+
+  <!-- tagline -->
+  <text x="640" y="256" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" fill="#AEB9D0">The open-source Go agent runtime · one static binary</text>
+
+  <!-- chips -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" fill="#C7D2EA">
+    <g transform="translate(300,296)">
+      <rect x="0"   y="0" width="196" height="40" rx="20" fill="#141E36" stroke="#2A3550"/>
+      <text x="98"  y="26" text-anchor="middle">Multi-provider LLM</text>
+    </g>
+    <g transform="translate(508,296)">
+      <rect x="0"   y="0" width="92"  height="40" rx="20" fill="#141E36" stroke="#2A3550"/>
+      <text x="46"  y="26" text-anchor="middle">Tools</text>
+    </g>
+    <g transform="translate(612,296)">
+      <rect x="0"   y="0" width="82"  height="40" rx="20" fill="#141E36" stroke="#2A3550"/>
+      <text x="41"  y="26" text-anchor="middle">MCP</text>
+    </g>
+    <g transform="translate(706,296)">
+      <rect x="0"   y="0" width="128" height="40" rx="20" fill="#141E36" stroke="#2A3550"/>
+      <text x="64"  y="26" text-anchor="middle">Telegram</text>
+    </g>
+    <g transform="translate(846,296)">
+      <rect x="0"   y="0" width="134" height="40" rx="20" fill="#141E36" stroke="#2A3550"/>
+      <text x="67"  y="26" text-anchor="middle">Memory</text>
+    </g>
+  </g>
+</svg>

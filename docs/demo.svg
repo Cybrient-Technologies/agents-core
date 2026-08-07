@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" width="860" height="470" role="img" aria-label="agentcore CLI demo">
+  <defs>
+    <linearGradient id="tbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C2333"/>
+      <stop offset="1" stop-color="#161C2A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- window -->
+  <rect x="8" y="8" width="844" height="454" rx="14" fill="#0D1117" stroke="#232B3A"/>
+  <!-- title bar -->
+  <rect x="8" y="8" width="844" height="44" rx="14" fill="url(#tbar)"/>
+  <rect x="8" y="38" width="844" height="14" fill="#0D1117"/>
+  <circle cx="34" cy="30" r="7" fill="#FF5F57"/>
+  <circle cx="58" cy="30" r="7" fill="#FEBC2E"/>
+  <circle cx="82" cy="30" r="7" fill="#28C840"/>
+  <text x="430" y="35" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#6B7689">agentcore — zsh</text>
+
+  <!-- body -->
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="15.5">
+    <text x="34" y="92"  fill="#5FD7A7">$ <tspan fill="#E6EDF3">agentcore -cli -slug researcher \</tspan></text>
+    <text x="34" y="116" fill="#E6EDF3">      -task <tspan fill="#F2C97D">"Summarise the latest Go release"</tspan></text>
+
+    <text x="34" y="156" fill="#7C89A8">→ resolved provider  <tspan fill="#8B5CF6">anthropic</tspan>  ·  model <tspan fill="#22D3EE">claude-sonnet-4-6</tspan></text>
+    <text x="34" y="184" fill="#7C89A8">→ tool  <tspan fill="#5FD7A7">web_search</tspan>("Go 1.23 release notes")</text>
+    <text x="34" y="212" fill="#7C89A8">→ tool  <tspan fill="#5FD7A7">fetch_page</tspan>("https://go.dev/doc/go1.23")</text>
+    <text x="34" y="240" fill="#7C89A8">✓ finished  ·  3 rounds  ·  4,210 tokens</text>
+
+    <text x="34" y="284" fill="#E6EDF3">Go 1.23 headlines</text>
+    <text x="34" y="310" fill="#AEB9D0">• range-over-function iterators are now stable</text>
+    <text x="34" y="334" fill="#AEB9D0">• new <tspan fill="#F2C97D">unique</tspan> package for value canonicalisation</text>
+    <text x="34" y="358" fill="#AEB9D0">• improved timer &amp; PGO performance</text>
+
+    <text x="34" y="402" fill="#5FD7A7">$ <tspan fill="#E6EDF3">agentcore -telegram -slug researcher</tspan></text>
+    <text x="34" y="430" fill="#7C89A8">bot online — chat with your agent on Telegram <tspan fill="#5FD7A7">▮</tspan></text>
+  </g>
+</svg>
